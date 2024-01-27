@@ -20,10 +20,13 @@
 
 
 .navbar {
+    background-color: #242529;
     display: flex;
-    width: 60%;
+    width: 100%;
     margin: auto;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .main-heading {
@@ -33,7 +36,7 @@
 
 .right-side {
     display: flex;
-    padding-top: 32px;
+    padding-top: 15px;
 }
 
 .nav-link {
@@ -47,7 +50,7 @@
     }
 }
 
-.cart {
+.navbar-icon {
     color: white;
     font-size: 20px;
     margin-left: 12px;

@@ -1,6 +1,7 @@
 import "./Navbar.css"
 import { IoCartOutline } from "react-icons/io5";
 import { CiSearch } from "react-icons/ci";
+import { Link } from "react-router-dom";
 
 
 
@@ -13,11 +14,11 @@ const Navbar = () => {
         </div>  
         <div className="right-side">
             <div className="nav-links">
-                    <a href="#" className="nav-link">domů</a>
-                    <a href="#" className="nav-link">obchod</a>
+                    <Link to="/" className="nav-link">domů</Link>
+                    <Link to="/shop" className="nav-link">obchod</Link>
                 </div>
-            <a href=""><CiSearch className="navbar-icon"/></a>  
-            <a href=""><IoCartOutline className="navbar-icon"/></a>                   
+            <Link href=""><CiSearch className="navbar-icon"/></Link>  
+            <Link href=""><IoCartOutline className="navbar-icon"/></Link>                   
         </div> 
     </div>);
 }
