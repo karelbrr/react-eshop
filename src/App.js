@@ -1,7 +1,11 @@
+import { CiShoppingCart } from "react-icons/ci";
+import Navbar from "./components/Navbar";
+import "./App.css"
+
 const App = () => {
   return (  
     <div className="app">
-      <h1>test</h1>
+      <Navbar />
     </div>
   );
 }

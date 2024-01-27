@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Satoshi-Bold';
+    src: url('../fonts/Satoshi-Bold.woff2') format('woff2'),
+         url('../fonts/Satoshi-Bold.woff') format('woff'),
+         url('../fonts/Satoshi-Bold.ttf') format('truetype');
+         font-weight: 700;
+         font-display: swap;
+         font-style: normal;
+}
+
+@font-face {
+    font-family: 'Satoshi-Variable';
+    src: url('../fonts/Satoshi-Variable.woff2') format('woff2'),
+         url('../fonts/Satoshi-Variable.woff') format('woff'),
+         url('../fonts/Satoshi-Variable.ttf') format('truetype');
+         font-weight: 300 900;
+         font-display: swap;
+         font-style: normal;
+}
+
+
+.navbar {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.main-heading {
+    font-family: Satoshi-Bold;
+    color: white;
+}
+
+.right-side {
+    display: flex;
+    padding-top: 32px;
+}
+
+.nav-link {
+    color: white;
+    font-family: Satoshi-Variable;
+    margin: 10px;
+    transition: 300ms;
+    text-decoration: none;
+    &:hover {
+        opacity: 70%;
+    }
+}
+
+.cart {
+    color: white;
+    font-size: 20px;
+    margin-left: 12px;
+    transition: 300ms;
+
+    &:hover {
+        opacity: 70%;
+    }
+}
