@@ -1,17 +1,34 @@
 import "./Shop.css"
 import CategoryItem from "./CategoryItem";
+import { useState, useEffect } from "react";
 
 
 const Shop = () => {
-    return ( <div className="shop">
+
+    const [data, setData] = useState([])
+    const [isPending, setIsPending] = useState(true)
+    const [error, setError] = useState()
+
+    useEffect(() => {
+            fetch('http://localhost:8000/categories')
+                .then(response => {
+                    if (response.ok) {
+                        return response.json()
+                    }
+                    throw new Error(`Unable to get data: ${response.statusText}`)
+                })
+                .then(json => setData(json))
+                .catch((err) => setError(err.message))
+                .finally(() => setIsPending(false))     
+    }, [])
+
+    return (<div className="shop">
         <h2 className="categories-heading">Kategorie</h2>
         <div className="categories-container">
-            <CategoryItem catName={"Apple IPhone"}/>           
-            <CategoryItem catName={"Apple MacBook"}/>           
-            <CategoryItem catName={"Apple IMac"}/>           
-            <CategoryItem catName={"Apple Watch"}/>           
+            {data.map(item => <CategoryItem key={item.id} category={item}/>)}
+
         </div>
-    </div> );
+    </div>);
 }
- 
+
 export default Shop;

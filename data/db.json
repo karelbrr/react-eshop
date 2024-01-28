@@ -1,0 +1,28 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "image": "http://localhost:8000/iphone-img.png",
+        "name": "Apple IPhone",
+        "desc": "Kombinace eleganci, výkonu a špičkového designu. S kvalitním displejem a výkonným hardwarem nabízí optimální zážitek pro každodenní používání."
+      },
+      {
+        "id": 2,
+        "image": "http://localhost:8000/macbook-img.png",
+        "name": "Apple MacBook",
+        "desc": "Elegantní a výkonný přenosný počítač od Apple. S tenkým a lehkým designem nabízí ostrý Retina displej, výkonný hardware a dlouhou výdrž baterie. Ideální pro práci i zábavu s širokou škálou funkcí."
+      },
+      {
+        "id": 3,
+        "image": "http://localhost:8000/imac-img.png",
+        "name": "Apple IMac",
+        "desc": "Elegantní stolní počítač spojující výkon a design. S brilantním Retina displejem a výkonným hardwarem poskytuje ideální pracovní prostředí pro kreativní i každodenní úkoly."
+      },
+      {
+        "id": 4,
+        "image": "http://localhost:8000/watch-img.png",
+        "name": "Apple Watch",
+        "desc": "Stylové chytré hodinky spojující inovaci a funkčnost. S elegantním designem a širokým spektrem funkcí jako sledování aktivity, zdraví a notifikace, je super společníkem pro aktivní a propojený životní styl."
+      }
+    ]
+  }

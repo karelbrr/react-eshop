@@ -1,10 +1,14 @@
 import { Link } from "react-router-dom"
 import "./CategoryItem.css"
 
-const CategoryItem = (props) => {
-    return ( <Link><div className="category-item">
-        <h3 className="category-heading">{props.catName}</h3>
-        <p className="category-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget fermentum dui. Quisque sed volutpat diam. Sed rhoncus venenatis euismod. Quisque convallis ullamcorper mauris, sed rutrum justo varius ut.</p>
+const CategoryItem = ({category}) => {
+
+    return ( <Link className="category-item-link"><div className="category-item">
+        <img src={category.image} alt={category.name} />
+        <div>
+            <h3 className="category-heading">{category.name}</h3>
+            <p className="category-desc">{category.desc}</p>
+        </div>    
     </div></Link> );
 }
  
