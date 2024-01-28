@@ -2,6 +2,7 @@ import "./Add.css"
 
 const Add = () => {
     return ( <div className="add">
+        <h2 className="add-heading">Přidat článek na domovskou stránku</h2>
         <form>
             <label>Typ</label>
             <select name="sd" id="type-input">
