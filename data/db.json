@@ -32,6 +32,7 @@
     "products_iphone": [
       {
         "id": 1,
+        "image_width": "30%",
         "image": "http://localhost:8000/iphone-img.png",
         "name": "Apple iPhone 15",
         "desc": "Mobilní telefon - 6,1 Super Retina XDR OLED 2556 × 1179, vnitřní paměť 256 GB, single SIM + eSIM, procesor Apple A16 Bionic, fotoaparát: 48Mpx (f/1,6) hlavní + 12Mpx širokoúhlý, přední kamera 12Mpx, GPS, NFC, LTE, 5G, USB-C, voděodolný dle IP68, rychlé nabíjení 20W, bezdrátové nabíjení 15W, model 2023, iOS",
@@ -39,6 +40,7 @@
       },
       {
         "id": 2,
+        "image_width": "30%",
         "image": "http://localhost:8000/iphone-img.png",
         "name": "Apple iPhone 15 Pro",
         "desc": "Mobilní telefon - 6,1 Super Retina XDR OLED 2556 × 1179 (120Hz), vnitřní paměť 512 GB, single SIM + eSIM, procesor Apple A17 Pro, fotoaparát: 48Mpx (f/1,8) hlavní + 12Mpx širokoúhlý + 12Mpx teleobjektiv, přední kamera 12Mpx, GPS, NFC, LTE, 5G, USB-C, voděodolný dle IP68, rychlé nabíjení, bezdrátové nabíjení 15W, model 2023, iOS",
@@ -46,6 +48,7 @@
       },
       {
         "id": 3,
+        "image_width": "30%",
         "image": "http://localhost:8000/iphone-img.png",
         "name": "Apple iPhone 15 Pro Max",
         "desc": "Mobilní telefon - 6,7 Super Retina XDR OLED 2796 × 1290 (120Hz), vnitřní paměť 1024 GB, single SIM + eSIM, procesor Apple A17 Pro, fotoaparát: 48Mpx (f/1,78) hlavní + 12Mpx širokoúhlý + 12Mpx teleobjektiv, přední kamera 12Mpx, GPS, NFC, LTE, 5G, USB-C, voděodolný dle IP68, rychlé nabíjení, bezdrátové nabíjení 15W, model 2023, iOS",
@@ -53,6 +56,7 @@
       },
       {
         "id": 4,
+        "image_width": "30%",
         "image": "http://localhost:8000/iphone-img.png",
         "name": "Apple iPhone 14 Pro",
         "desc": "Mobilní telefon - 6,1 OLED 2556 × 1179 (120Hz), vnitřní paměť 512 GB, single SIM + eSIM, procesor Apple A16 Bionic, fotoaparát: 48Mpx (f/1,78) hlavní + 12Mpx širokoúhlý + 12Mpx teleobjektiv, přední kamera 12Mpx, GPS, NFC, LTE, 5G, Lightning port, voděodolný dle IP68, rychlé nabíjení 20W, bezdrátové nabíjení, model 2022, iOS",
@@ -60,6 +64,7 @@
       },
       {
         "id": 5,
+        "image_width": "30%",
         "image": "http://localhost:8000/iphone-img.png",
         "name": "Apple iPhone 14",
         "desc": "Mobilní telefon - 6,1 OLED 2532 × 1170, vnitřní paměť 128 GB, single SIM + eSIM, procesor Apple A15 Bionic, fotoaparát: 12Mpx (f/1,5) hlavní + 12Mpx širokoúhlý, přední kamera 12Mpx, GPS, NFC, LTE, 5G, Lightning port, voděodolný dle IP68, rychlé nabíjení 15W, bezdrátové nabíjení, model 2022, iOS",
@@ -67,6 +72,7 @@
       },
       {
         "id": 6,
+        "image_width": "30%",
         "image": "http://localhost:8000/iphone-img.png",
         "name": "Apple iPhone 13",
         "desc": "Mobilní telefon - 6,1 Super Retina XDR OLED 2532 × 1170, operační paměť 4 GB, vnitřní paměť 128 GB, single SIM + eSIM, procesor Apple A15 Bionic, fotoaparát: 12Mpx (f/1,6) hlavní + 12Mpx širokoúhlý, přední kamera 12Mpx, GPS, NFC, LTE, 5G, Lightning port, voděodolný dle IP68, rychlé nabíjení 20W, bezdrátové nabíjení 15W, baterie 3240 mAh, model 2021, iOS",
@@ -76,45 +82,101 @@
     "products_macbook": [
       {
         "id": 1,
+        "image_width": "60%",
         "image": "http://localhost:8000/macbook-img.png",
-        "name": "Apple MacBook 1",
-        "desc": "Mobilní telefon - 6,1 Super Retina XDR OLED 2556 × 1179, vnitřní paměť 256 GB, single SIM + eSIM, procesor Apple A16 Bionic, fotoaparát: 48Mpx (f/1,6) hlavní + 12Mpx širokoúhlý, přední kamera 12Mpx, GPS, NFC, LTE, 5G, USB-C, voděodolný dle IP68, rychlé nabíjení 20W, bezdrátové nabíjení 15W, model 2023, iOS",
-        "price": 24999
+        "name": "Apple MacBook Pro 16 M3 MAX",
+        "desc": "MacBook - Apple M3 Max (16jádrový), 16,2 Liquid Retina XDR lesklý 3456 × 2234 px, 120 Hz, RAM 128GB, Apple M3 MAX 40jádrová GPU, SSD 4000GB, podsvícená klávesnice, webkamera, USB-C, WiFi 6E, hmotnost 2,16 kg, macOS",
+        "price": 179990
       },
       {
         "id": 2,
+        "image_width": "60%",
         "image": "http://localhost:8000/macbook-img.png",
-        "name": "Apple MacBook 2",
-        "desc": "Mobilní telefon - 6,1 Super Retina XDR OLED 2556 × 1179 (120Hz), vnitřní paměť 512 GB, single SIM + eSIM, procesor Apple A17 Pro, fotoaparát: 48Mpx (f/1,8) hlavní + 12Mpx širokoúhlý + 12Mpx teleobjektiv, přední kamera 12Mpx, GPS, NFC, LTE, 5G, USB-C, voděodolný dle IP68, rychlé nabíjení, bezdrátové nabíjení 15W, model 2023, iOS",
-        "price": 37999
+        "name": "Apple MacBook Pro 14 M3 PRO",
+        "desc": "MacBook - Apple M3 Pro (12jádrový), 14,2 IPS lesklý 3024 × 1964 px, 120 Hz, RAM 36GB, Apple M3 PRO 18jádrová GPU, SSD 512GB, webkamera, USB-C, čtečka otisků prstů, WiFi 6, WiFi, Bluetooth, hmotnost 1,61 kg, macOS",
+        "price": 77990
       },
       {
         "id": 3,
+        "image_width": "60%",
         "image": "http://localhost:8000/macbook-img.png",
-        "name": "Apple MacBook 3",
-        "desc": "Mobilní telefon - 6,7 Super Retina XDR OLED 2796 × 1290 (120Hz), vnitřní paměť 1024 GB, single SIM + eSIM, procesor Apple A17 Pro, fotoaparát: 48Mpx (f/1,78) hlavní + 12Mpx širokoúhlý + 12Mpx teleobjektiv, přední kamera 12Mpx, GPS, NFC, LTE, 5G, USB-C, voděodolný dle IP68, rychlé nabíjení, bezdrátové nabíjení 15W, model 2023, iOS",
-        "price": 46999
+        "name": "Apple MacBook Pro 16 M2 PRO ",
+        "desc": "MacBook - Apple M2 Pro (12jádrový), 16,2 Liquid Retina XDR lesklý 3456 × 2234 px, 120 Hz, RAM 16GB, Apple M2 PRO 19jádrová GPU, SSD 512GB, podsvícená klávesnice, webkamera, USB-C, WiFi 6E, hmotnost 2,15 kg, macOS",
+        "price": 59990
       },
       {
         "id": 4,
+        "image_width": "60%",
         "image": "http://localhost:8000/macbook-img.png",
-        "name": "Apple MacBook 4",
-        "desc": "Mobilní telefon - 6,1 OLED 2556 × 1179 (120Hz), vnitřní paměť 512 GB, single SIM + eSIM, procesor Apple A16 Bionic, fotoaparát: 48Mpx (f/1,78) hlavní + 12Mpx širokoúhlý + 12Mpx teleobjektiv, přední kamera 12Mpx, GPS, NFC, LTE, 5G, Lightning port, voděodolný dle IP68, rychlé nabíjení 20W, bezdrátové nabíjení, model 2022, iOS",
-        "price": 24999
+        "name": "Apple MacBook Air 13 M2",
+        "desc": "MacBook - Apple M2 (8jádrový), 13,6 IPS lesklý 2560 × 1664 px, RAM 8GB, Apple M2 8jádrová GPU, SSD 256GB, podsvícená klávesnice, webkamera, USB-C, WiFi 6, hmotnost 1,24 kg, macOS",
+        "price": 29990
       },
       {
         "id": 5,
+        "image_width": "60%",
         "image": "http://localhost:8000/macbook-img.png",
-        "name": "Apple MacBook 5",
-        "desc": "Mobilní telefon - 6,1 OLED 2532 × 1170, vnitřní paměť 128 GB, single SIM + eSIM, procesor Apple A15 Bionic, fotoaparát: 12Mpx (f/1,5) hlavní + 12Mpx širokoúhlý, přední kamera 12Mpx, GPS, NFC, LTE, 5G, Lightning port, voděodolný dle IP68, rychlé nabíjení 15W, bezdrátové nabíjení, model 2022, iOS",
-        "price": 18999
+        "name": "Apple MacBook Air 13 M1",
+        "desc": "MacBook - Apple M1, 13,3 IPS lesklý 2560 × 1600 px, RAM 8GB, Apple M1 7jádrová GPU, SSD 256GB, podsvícená klávesnice, webkamera, USB-C, čtečka otisků prstů, WiFi 6, hmotnost 1,25 kg, macOS",
+        "price": 23490
       },
       {
         "id": 6,
+        "image_width": "60%",
         "image": "http://localhost:8000/macbook-img.png",
-        "name": "Apple MacBook 6",
-        "desc": "Mobilní telefon - 6,1 Super Retina XDR OLED 2532 × 1170, operační paměť 4 GB, vnitřní paměť 128 GB, single SIM + eSIM, procesor Apple A15 Bionic, fotoaparát: 12Mpx (f/1,6) hlavní + 12Mpx širokoúhlý, přední kamera 12Mpx, GPS, NFC, LTE, 5G, Lightning port, voděodolný dle IP68, rychlé nabíjení 20W, bezdrátové nabíjení 15W, baterie 3240 mAh, model 2021, iOS",
-        "price": 14999
+        "name": "Apple MacBook Air 15 M2",
+        "desc": "MacBook - Apple M2 (8jádrový), 15,3 IPS lesklý 2880 × 1864 px, RAM 8GB, Apple M2 10jádrová GPU, SSD 512GB, podsvícená klávesnice, webkamera, USB-C, WiFi 6, hmotnost 1,51 kg, macOS",
+        "price": 43990
+      }
+    ],
+    "products_imac": [
+      {
+        "id": 1,
+        "image_width": "40%",
+        "image": "http://localhost:8000/imac-img.png",
+        "name": "Apple iMac",
+        "desc": "MacBook - Apple M3 Max (16jádrový), 16,2 Liquid Retina XDR lesklý 3456 × 2234 px, 120 Hz, RAM 128GB, Apple M3 MAX 40jádrová GPU, SSD 4000GB, podsvícená klávesnice, webkamera, USB-C, WiFi 6E, hmotnost 2,16 kg, macOS",
+        "price": 179990
+      },
+      {
+        "id": 2,
+        "image_width": "40%",
+        "image": "http://localhost:8000/imac-img.png",
+        "name": "Apple iMac",
+        "desc": "MacBook - Apple M3 Pro (12jádrový), 14,2 IPS lesklý 3024 × 1964 px, 120 Hz, RAM 36GB, Apple M3 PRO 18jádrová GPU, SSD 512GB, webkamera, USB-C, čtečka otisků prstů, WiFi 6, WiFi, Bluetooth, hmotnost 1,61 kg, macOS",
+        "price": 77990
+      },
+      {
+        "id": 3,
+        "image_width": "40%",
+        "image": "http://localhost:8000/imac-img.png",
+        "name": "Apple iMac",
+        "desc": "MacBook - Apple M2 Pro (12jádrový), 16,2 Liquid Retina XDR lesklý 3456 × 2234 px, 120 Hz, RAM 16GB, Apple M2 PRO 19jádrová GPU, SSD 512GB, podsvícená klávesnice, webkamera, USB-C, WiFi 6E, hmotnost 2,15 kg, macOS",
+        "price": 59990
+      },
+      {
+        "id": 4,
+        "image_width": "40%",
+        "image": "http://localhost:8000/imac-img.png",
+        "name": "Apple iMac",
+        "desc": "MacBook - Apple M2 (8jádrový), 13,6 IPS lesklý 2560 × 1664 px, RAM 8GB, Apple M2 8jádrová GPU, SSD 256GB, podsvícená klávesnice, webkamera, USB-C, WiFi 6, hmotnost 1,24 kg, macOS",
+        "price": 29990
+      },
+      {
+        "id": 5,
+        "image_width": "40%",
+        "image": "http://localhost:8000/imac-img.png",
+        "name": "Apple iMac",
+        "desc": "MacBook - Apple M1, 13,3 IPS lesklý 2560 × 1600 px, RAM 8GB, Apple M1 7jádrová GPU, SSD 256GB, podsvícená klávesnice, webkamera, USB-C, čtečka otisků prstů, WiFi 6, hmotnost 1,25 kg, macOS",
+        "price": 23490
+      },
+      {
+        "id": 6,
+        "image_width": "40%",
+        "image": "http://localhost:8000/imac-img.png",
+        "name": "Apple iMac",
+        "desc": "MacBook - Apple M2 (8jádrový), 15,3 IPS lesklý 2880 × 1864 px, RAM 8GB, Apple M2 10jádrová GPU, SSD 512GB, podsvícená klávesnice, webkamera, USB-C, WiFi 6, hmotnost 1,51 kg, macOS",
+        "price": 43990
       }
     ]
   }

@@ -9,6 +9,7 @@
     color: white;
     background-color: #242529;
     border: 1px solid #242529;
+    transition: 500ms;
     &:hover {
         border-color: white;
     }
@@ -17,14 +18,14 @@
 .product-img {
     
     display: block;
-    width: 40%;
-    height: 40%;
+    height: 30%;
     margin: auto;
     padding-top: 12px;
 }
 
 .product-name {
     padding: 15px;
+    padding-top: 30px;
     font-family: Satoshi-Variable;
 }
 
@@ -35,6 +36,7 @@
     font-size: 13px;
     text-align: justify;
     opacity: 80%;
+    height: 120px;
 }
 
 .product-price {
@@ -44,6 +46,6 @@
     text-align: right;
     font-size: 22px;
     padding-top: 10px;
-    padding-right: 15px;
+    padding-right: 20px;
 }
 
