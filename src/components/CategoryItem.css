@@ -27,9 +27,10 @@
     padding: 20px;
     padding-top: 10px;
     font-family: Satoshi-Variable;
+    text-align: justify;
 }
 
-img {
+.category-img {
     width: 30%;
     height: 40%;
     margin-top: 48px;

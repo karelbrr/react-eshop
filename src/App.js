@@ -16,10 +16,10 @@ const App = () => {
           <Route path="/" element={<Home/>}/>
           <Route path="/shop" element={<Shop/>}/>
           <Route path="/add" element={<Add/>}/>
-          <Route path="/shop/iphone" element={<ProductList cname={"Apple IPhone"} />}/>
-          <Route path="/shop/macbook" element={<ProductList cname={"Apple MacBook"}/>}/>
-          <Route path="/shop/imac" element={<ProductList cname={"Apple IMac"}/>}/>
-          <Route path="/shop/watch" element={<ProductList cname={"Apple Watch"}/>}/>
+          <Route path="/shop/iphone" element={<ProductList cname={"Apple IPhone"} fetch_url={"http://localhost:8000/products_iphone"}/>}/>
+          <Route path="/shop/macbook" element={<ProductList cname={"Apple MacBook"} fetch_url={"http://localhost:8000/products_macbook"}/>}/>
+          <Route path="/shop/imac" element={<ProductList cname={"Apple IMac"}/>} fetch_url={"http://localhost:8000/products_"}/>
+          <Route path="/shop/watch" element={<ProductList cname={"Apple Watch"}/>} fetch_url={"http://localhost:8000/products_"}/>
         </Routes>
       </div>
   </Router>

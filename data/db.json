@@ -72,5 +72,49 @@
         "desc": "Mobilní telefon - 6,1 Super Retina XDR OLED 2532 × 1170, operační paměť 4 GB, vnitřní paměť 128 GB, single SIM + eSIM, procesor Apple A15 Bionic, fotoaparát: 12Mpx (f/1,6) hlavní + 12Mpx širokoúhlý, přední kamera 12Mpx, GPS, NFC, LTE, 5G, Lightning port, voděodolný dle IP68, rychlé nabíjení 20W, bezdrátové nabíjení 15W, baterie 3240 mAh, model 2021, iOS",
         "price": 14999
       }
+    ],
+    "products_macbook": [
+      {
+        "id": 1,
+        "image": "http://localhost:8000/macbook-img.png",
+        "name": "Apple MacBook 1",
+        "desc": "Mobilní telefon - 6,1 Super Retina XDR OLED 2556 × 1179, vnitřní paměť 256 GB, single SIM + eSIM, procesor Apple A16 Bionic, fotoaparát: 48Mpx (f/1,6) hlavní + 12Mpx širokoúhlý, přední kamera 12Mpx, GPS, NFC, LTE, 5G, USB-C, voděodolný dle IP68, rychlé nabíjení 20W, bezdrátové nabíjení 15W, model 2023, iOS",
+        "price": 24999
+      },
+      {
+        "id": 2,
+        "image": "http://localhost:8000/macbook-img.png",
+        "name": "Apple MacBook 2",
+        "desc": "Mobilní telefon - 6,1 Super Retina XDR OLED 2556 × 1179 (120Hz), vnitřní paměť 512 GB, single SIM + eSIM, procesor Apple A17 Pro, fotoaparát: 48Mpx (f/1,8) hlavní + 12Mpx širokoúhlý + 12Mpx teleobjektiv, přední kamera 12Mpx, GPS, NFC, LTE, 5G, USB-C, voděodolný dle IP68, rychlé nabíjení, bezdrátové nabíjení 15W, model 2023, iOS",
+        "price": 37999
+      },
+      {
+        "id": 3,
+        "image": "http://localhost:8000/macbook-img.png",
+        "name": "Apple MacBook 3",
+        "desc": "Mobilní telefon - 6,7 Super Retina XDR OLED 2796 × 1290 (120Hz), vnitřní paměť 1024 GB, single SIM + eSIM, procesor Apple A17 Pro, fotoaparát: 48Mpx (f/1,78) hlavní + 12Mpx širokoúhlý + 12Mpx teleobjektiv, přední kamera 12Mpx, GPS, NFC, LTE, 5G, USB-C, voděodolný dle IP68, rychlé nabíjení, bezdrátové nabíjení 15W, model 2023, iOS",
+        "price": 46999
+      },
+      {
+        "id": 4,
+        "image": "http://localhost:8000/macbook-img.png",
+        "name": "Apple MacBook 4",
+        "desc": "Mobilní telefon - 6,1 OLED 2556 × 1179 (120Hz), vnitřní paměť 512 GB, single SIM + eSIM, procesor Apple A16 Bionic, fotoaparát: 48Mpx (f/1,78) hlavní + 12Mpx širokoúhlý + 12Mpx teleobjektiv, přední kamera 12Mpx, GPS, NFC, LTE, 5G, Lightning port, voděodolný dle IP68, rychlé nabíjení 20W, bezdrátové nabíjení, model 2022, iOS",
+        "price": 24999
+      },
+      {
+        "id": 5,
+        "image": "http://localhost:8000/macbook-img.png",
+        "name": "Apple MacBook 5",
+        "desc": "Mobilní telefon - 6,1 OLED 2532 × 1170, vnitřní paměť 128 GB, single SIM + eSIM, procesor Apple A15 Bionic, fotoaparát: 12Mpx (f/1,5) hlavní + 12Mpx širokoúhlý, přední kamera 12Mpx, GPS, NFC, LTE, 5G, Lightning port, voděodolný dle IP68, rychlé nabíjení 15W, bezdrátové nabíjení, model 2022, iOS",
+        "price": 18999
+      },
+      {
+        "id": 6,
+        "image": "http://localhost:8000/macbook-img.png",
+        "name": "Apple MacBook 6",
+        "desc": "Mobilní telefon - 6,1 Super Retina XDR OLED 2532 × 1170, operační paměť 4 GB, vnitřní paměť 128 GB, single SIM + eSIM, procesor Apple A15 Bionic, fotoaparát: 12Mpx (f/1,6) hlavní + 12Mpx širokoúhlý, přední kamera 12Mpx, GPS, NFC, LTE, 5G, Lightning port, voděodolný dle IP68, rychlé nabíjení 20W, bezdrátové nabíjení 15W, baterie 3240 mAh, model 2021, iOS",
+        "price": 14999
+      }
     ]
   }
