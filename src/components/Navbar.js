@@ -16,7 +16,7 @@ const Navbar = () => {
             <div className="nav-links">
                     <Link to="/" className="nav-link">domů</Link>
                     <Link to="/shop" className="nav-link">obchod</Link>
-                    <Link to="/add" className="nav-link">přidat</Link>
+                    
                 </div>
             <Link href=""><CiSearch className="navbar-icon"/></Link>  
             <Link href=""><IoCartOutline className="navbar-icon"/></Link>                   

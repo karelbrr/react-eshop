@@ -1,0 +1,24 @@
+.product-link {
+    text-decoration: none;
+}
+
+.product {
+    border-radius: 20px;
+    width: 100%;
+    height: 300px;
+    color: white;
+    background-color: #242529;
+}
+
+.product-name {
+    padding: 10px;
+}
+
+.product-desc {
+    padding-left: 10px;
+}
+
+.product-price {
+    padding: 10px;
+}
+

@@ -16,7 +16,7 @@ const App = () => {
           <Route path="/" element={<Home/>}/>
           <Route path="/shop" element={<Shop/>}/>
           <Route path="/add" element={<Add/>}/>
-          <Route path="/shop/iphone" element={<ProductList cname={"Apple IPhone"}/>}/>
+          <Route path="/shop/iphone" element={<ProductList cname={"Apple IPhone"} />}/>
           <Route path="/shop/macbook" element={<ProductList cname={"Apple MacBook"}/>}/>
           <Route path="/shop/imac" element={<ProductList cname={"Apple IMac"}/>}/>
           <Route path="/shop/watch" element={<ProductList cname={"Apple Watch"}/>}/>
