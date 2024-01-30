@@ -134,49 +134,99 @@
         "id": 1,
         "image_width": "40%",
         "image": "http://localhost:8000/imac-img.png",
-        "name": "Apple iMac",
-        "desc": "MacBook - Apple M3 Max (16jádrový), 16,2 Liquid Retina XDR lesklý 3456 × 2234 px, 120 Hz, RAM 128GB, Apple M3 MAX 40jádrová GPU, SSD 4000GB, podsvícená klávesnice, webkamera, USB-C, WiFi 6E, hmotnost 2,16 kg, macOS",
-        "price": 179990
+        "name": "Apple iMac M3",
+        "desc": "All In One PC 23.5 4480 × 2520, Apple M3 (8jádrové), Apple Apple M3 10jádrová GPU, RAM 8GB, SSD 512 GB, Wi-Fi, Thunderbolt 3, magic keyboard s touch id, macOS",
+        "price": 51990
       },
       {
         "id": 2,
         "image_width": "40%",
         "image": "http://localhost:8000/imac-img.png",
-        "name": "Apple iMac",
-        "desc": "MacBook - Apple M3 Pro (12jádrový), 14,2 IPS lesklý 3024 × 1964 px, 120 Hz, RAM 36GB, Apple M3 PRO 18jádrová GPU, SSD 512GB, webkamera, USB-C, čtečka otisků prstů, WiFi 6, WiFi, Bluetooth, hmotnost 1,61 kg, macOS",
-        "price": 77990
+        "name": "Apple iMac M3",
+        "desc": "All In One PC 23.5 4480 × 2520, Apple M3 (8jádrové), Apple Apple M3 10jádrová GPU, RAM 24GB, SSD 1000 GB, Wi-Fi, Thunderbolt 3, magic keyboard s touch id, macOS",
+        "price": 69990
       },
       {
         "id": 3,
         "image_width": "40%",
         "image": "http://localhost:8000/imac-img.png",
-        "name": "Apple iMac",
-        "desc": "MacBook - Apple M2 Pro (12jádrový), 16,2 Liquid Retina XDR lesklý 3456 × 2234 px, 120 Hz, RAM 16GB, Apple M2 PRO 19jádrová GPU, SSD 512GB, podsvícená klávesnice, webkamera, USB-C, WiFi 6E, hmotnost 2,15 kg, macOS",
-        "price": 59990
+        "name": "Apple iMac M3",
+        "desc": "All In One PC 23.5 4480 × 2520, Apple M3 (8jádrové), Apple Apple M3 8jádrová GPU, RAM 8GB, SSD 256 GB, Wi-Fi, Thunderbolt 3, Magic Keyboard, macOS",
+        "price": 39990
       },
       {
         "id": 4,
         "image_width": "40%",
         "image": "http://localhost:8000/imac-img.png",
-        "name": "Apple iMac",
-        "desc": "MacBook - Apple M2 (8jádrový), 13,6 IPS lesklý 2560 × 1664 px, RAM 8GB, Apple M2 8jádrová GPU, SSD 256GB, podsvícená klávesnice, webkamera, USB-C, WiFi 6, hmotnost 1,24 kg, macOS",
-        "price": 29990
+        "name": "Mac 24 M1",
+        "desc": "All In One PC 24 4480 × 2520, Apple M1, Apple M1 8jádrová GPU, RAM 16GB, SSD 256 GB, Wi-Fi, Thunderbolt 3, magic keyboard s touch id, macOS",
+        "price": 39990
       },
       {
         "id": 5,
         "image_width": "40%",
         "image": "http://localhost:8000/imac-img.png",
-        "name": "Apple iMac",
-        "desc": "MacBook - Apple M1, 13,3 IPS lesklý 2560 × 1600 px, RAM 8GB, Apple M1 7jádrová GPU, SSD 256GB, podsvícená klávesnice, webkamera, USB-C, čtečka otisků prstů, WiFi 6, hmotnost 1,25 kg, macOS",
-        "price": 23490
+        "name": "Apple iMac M1",
+        "desc": "All In One PC 24 4480 × 2520, Apple M1, Apple M1 8jádrová GPU, RAM 16GB, SSD 1TB GB, Wi-Fi, Thunderbolt 3, magic keyboard s touch id, macOS",
+        "price": 44990
       },
       {
         "id": 6,
         "image_width": "40%",
         "image": "http://localhost:8000/imac-img.png",
-        "name": "Apple iMac",
-        "desc": "MacBook - Apple M2 (8jádrový), 15,3 IPS lesklý 2880 × 1864 px, RAM 8GB, Apple M2 10jádrová GPU, SSD 512GB, podsvícená klávesnice, webkamera, USB-C, WiFi 6, hmotnost 1,51 kg, macOS",
-        "price": 43990
+        "name": "Apple iMac M1",
+        "desc": "All In One PC 24 4480 × 2520, Apple M1, Apple M1 8jádrová GPU, RAM 16GB, SSD 256 GB, Wi-Fi, Thunderbolt 3, magic keyboard s touch id, macOS",
+        "price": 44990
+      }
+    ],
+    "products_watch": [
+      {
+        "id": 1,
+        "image_width": "30%",
+        "image": "http://localhost:8000/watch-img.png",
+        "name": "Apple Watch Series 9 45mm",
+        "desc": "Chytré hodinky - OLED displej, GPS, telefonování s eSIM kartou (číslo stejné s telefonem), NFC platby skrze Apple Pay, měření tepu, měření EKG, monitoring spánku, krokoměr, oxymetr, barometr, hledání telefonu, přehrávač hudby v hodinkách, ovládání přehrávače hudby v mobilu, předpověď počasí, režim spánku/nerušit, obchod s aplikacemi, vlastní ciferníky, navigace",
+        "price": 15290
+      },
+      {
+        "id": 2,
+        "image_width": "30%",
+        "image": "http://localhost:8000/watch-img.png",
+        "name": "Apple Watch Series 9 41mm",
+        "desc": "Chytré hodinky - OLED displej, GPS, telefonování s eSIM kartou (číslo stejné s telefonem), NFC platby skrze Apple Pay, měření tepu, měření EKG, monitoring spánku, krokoměr, oxymetr, barometr, hledání telefonu, přehrávač hudby v hodinkách, ovládání přehrávače hudby v mobilu, předpověď počasí, režim spánku/nerušit, obchod s aplikacemi, vlastní ciferníky, navigace",
+        "price": 13990
+      },
+      {
+        "id": 3,
+        "image_width": "30%",
+        "image": "http://localhost:8000/watch-img.png",
+        "name": "Apple Watch Series 8 45mm",
+        "desc": "Chytré hodinky - s ovládáním v češtině, OLED displej, GPS, telefonování s eSIM kartou (číslo stejné s telefonem), NFC platby skrze Apple Pay, měření tepu, měření EKG, monitoring spánku, krokoměr, oxymetr, barometr, hledání telefonu, přehrávač hudby v hodinkách, ovládání přehrávače hudby v mobilu, předpověď počasí, režim spánku/nerušit, obchod s aplikacemi",
+        "price": 39990
+      },
+      {
+        "id": 4,
+        "image_width": "30%",
+        "image": "http://localhost:8000/watch-img.png",
+        "name": "Apple Watch Ultra 2 49mm",
+        "desc": "Chytré hodinky - pro muže i ženy, OLED displej, GPS, telefonování s eSIM kartou (číslo stejné s telefonem), NFC platby skrze Apple Pay, měření tepu, měření EKG, monitoring spánku, krokoměr, oxymetr, barometr, hledání telefonu, přehrávač hudby v hodinkách, ovládání přehrávače hudby v mobilu, předpověď počasí, režim spánku/nerušit, obchod s aplikacemi",
+        "price": 21490
+      },
+      {
+        "id": 5,
+        "image_width": "30%",
+        "image": "http://localhost:8000/watch-img.png",
+        "name": "Apple Watch SE 40mm",
+        "desc": "Chytré hodinky - s ovládáním v češtině, OLED displej, GPS, telefonování z hodinek přes spárovaný telefon (v dosahu Bluetooth), NFC platby skrze Apple Pay, měření tepu, monitoring spánku, krokoměr, barometr, hledání telefonu, přehrávač hudby v hodinkách, ovládání přehrávače hudby v mobilu, předpověď počasí, režim spánku/nerušit, obchod s aplikacemi",
+        "price": 6990
+      },
+      {
+        "id": 6,
+        "image_width": "30%",
+        "image": "http://localhost:8000/watch-img.png",
+        "name": "Apple Watch Series 7 45mm",
+        "desc": "Chytré hodinky - pro muže i ženy, s ovládáním v češtině, OLED displej, GPS, telefonování z hodinek přes spárovaný telefon (v dosahu Bluetooth), NFC platby skrze Apple Pay, měření tepu, měření EKG, monitoring spánku, krokoměr, oxymetr, barometr, hledání telefonu, přehrávač hudby v hodinkách, ovládání přehrávače hudby v mobilu, předpověď počasí",
+        "price": 9999
       }
     ]
   }
