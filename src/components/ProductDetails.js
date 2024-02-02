@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 
 
-const ProductDetails = ({fetch_url, cart, setCart}) => {
+const ProductDetails = ({fetch_url, cart, setCart, setInCart}) => {
     const [data, setData] = useState([])
     const [isPending, setIsPending] = useState(true)
     const [error, setError] = useState()
@@ -27,6 +27,8 @@ const ProductDetails = ({fetch_url, cart, setCart}) => {
     const addToCartButtonHandler = () => {
         cart.push(data[0])
         setCart(cart)
+        alert(name + " byl přidán do košíku")
+        setInCart(true)
     }
 
     const name = data.length > 0 ? data[0].name : "";

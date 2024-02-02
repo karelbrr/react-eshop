@@ -31,7 +31,7 @@
     ],
     "products_iphone": [
       {
-        "id": 1,
+        "id": "a1",
         "image_width": "30%",
         "link": "/shop/details-iphone/",
         "image": "http://localhost:8000/iphone-img.png",
@@ -40,7 +40,7 @@
         "price": 24999
       },
       {
-        "id": 2,
+        "id": "a2",
         "image_width": "30%",
         "link": "/shop/details-iphone/",
         "image": "http://localhost:8000/iphone-img.png",
@@ -49,7 +49,7 @@
         "price": 37999
       },
       {
-        "id": 3,
+        "id": "a3",
         "image_width": "30%",
         "link": "/shop/details-iphone/",
         "image": "http://localhost:8000/iphone-img.png",
@@ -58,7 +58,7 @@
         "price": 46999
       },
       {
-        "id": 4,
+        "id": "a4",
         "image_width": "30%",
         "link": "/shop/details-iphone/",
         "image": "http://localhost:8000/iphone-img.png",
@@ -67,7 +67,7 @@
         "price": 24999
       },
       {
-        "id": 5,
+        "id": "a5",
         "image_width": "30%",
         "link": "/shop/details-iphone/",
         "image": "http://localhost:8000/iphone-img.png",
@@ -76,7 +76,7 @@
         "price": 18999
       },
       {
-        "id": 6,
+        "id": "a6",
         "image_width": "30%",
         "link": "/shop/details-iphone/",
         "image": "http://localhost:8000/iphone-img.png",
@@ -87,7 +87,7 @@
     ],
     "products_macbook": [
       {
-        "id": 1,
+        "id": "b1",
         "image_width": "60%",
         "link": "/shop/details-macbook/",
         "image": "http://localhost:8000/macbook-img.png",
@@ -96,7 +96,7 @@
         "price": 179990
       },
       {
-        "id": 2,
+        "id": "b2",
         "image_width": "60%",
         "link": "/shop/details-macbook/",
         "image": "http://localhost:8000/macbook-img.png",
@@ -105,7 +105,7 @@
         "price": 77990
       },
       {
-        "id": 3,
+        "id": "b3",
         "image_width": "60%",
         "link": "/shop/details-macbook/",
         "image": "http://localhost:8000/macbook-img.png",
@@ -114,7 +114,7 @@
         "price": 59990
       },
       {
-        "id": 4,
+        "id": "b4",
         "image_width": "60%",
         "link": "/shop/details-macbook/",
         "image": "http://localhost:8000/macbook-img.png",
@@ -123,7 +123,7 @@
         "price": 29990
       },
       {
-        "id": 5,
+        "id": "b5",
         "image_width": "60%",
         "link": "/shop/details-macbook/",
         "image": "http://localhost:8000/macbook-img.png",
@@ -132,7 +132,7 @@
         "price": 23490
       },
       {
-        "id": 6,
+        "id": "b6",
         "image_width": "60%",
         "link": "/shop/details-macbook/",
         "image": "http://localhost:8000/macbook-img.png",
@@ -143,7 +143,7 @@
     ],
     "products_imac": [
       {
-        "id": 1,
+        "id": "c1",
         "image_width": "40%",
         "link": "/shop/details-imac/",
         "image": "http://localhost:8000/imac-img.png",
@@ -152,7 +152,7 @@
         "price": 51990
       },
       {
-        "id": 2,
+        "id": "c2",
         "image_width": "40%",
         "link": "/shop/details-imac/",
         "image": "http://localhost:8000/imac-img.png",
@@ -161,7 +161,7 @@
         "price": 69990
       },
       {
-        "id": 3,
+        "id": "c3",
         "image_width": "40%",
         "link": "/shop/details-imac/",
         "image": "http://localhost:8000/imac-img.png",
@@ -170,7 +170,7 @@
         "price": 39990
       },
       {
-        "id": 4,
+        "id": "c4",
         "image_width": "40%",
         "link": "/shop/details-imac/",
         "image": "http://localhost:8000/imac-img.png",
@@ -179,7 +179,7 @@
         "price": 39990
       },
       {
-        "id": 5,
+        "id": "c5",
         "image_width": "40%",
         "image": "http://localhost:8000/imac-img.png",
         "name": "Apple iMac M1",
@@ -187,7 +187,7 @@
         "price": 44990
       },
       {
-        "id": 6,
+        "id": "c6",
         "image_width": "40%",
         "link": "/shop/details-imac/",
         "image": "http://localhost:8000/imac-img.png",
@@ -198,7 +198,7 @@
     ],
     "products_watch": [
       {
-        "id": 1,
+        "id": "d1",
         "image_width": "30%",
         "link": "/shop/details-watch/",
         "image": "http://localhost:8000/watch-img.png",
@@ -207,7 +207,7 @@
         "price": 15290
       },
       {
-        "id": 2,
+        "id": "d2",
         "image_width": "30%",
         "link": "/shop/details-watch/",
         "image": "http://localhost:8000/watch-img.png",
@@ -216,7 +216,7 @@
         "price": 13990
       },
       {
-        "id": 3,
+        "id": "d3",
         "image_width": "30%",
         "link": "/shop/details-watch/",
         "image": "http://localhost:8000/watch-img.png",
@@ -225,7 +225,7 @@
         "price": 39990
       },
       {
-        "id": 4,
+        "id": "d4",
         "image_width": "30%",
         "link": "/shop/details-watch/",
         "image": "http://localhost:8000/watch-img.png",
@@ -234,7 +234,7 @@
         "price": 21490
       },
       {
-        "id": 5,
+        "id": "d5",
         "image_width": "30%",
         "link": "/shop/details-watch/",
         "image": "http://localhost:8000/watch-img.png",
@@ -243,7 +243,7 @@
         "price": 6990
       },
       {
-        "id": 6,
+        "id": "d6",
         "image_width": "30%",
         "link": "/shop/details-watch/",
         "image": "http://localhost:8000/watch-img.png",

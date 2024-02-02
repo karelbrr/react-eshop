@@ -17,7 +17,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
+    width: 100%;
     background-color: #242529;
     border: 1px solid #242529;
     margin: auto;
@@ -34,7 +34,9 @@
 .cart-item-link {
     text-decoration: none;
     color: white;
-    
+    display: block;
+    width: 50%;
+    margin: auto;
 }
 
 .cart-item-name {
@@ -64,8 +66,50 @@
     
 }
 
+.cart-delete-all {
+    font-family: Satoshi-Variable;
+    font-size: 18px;
+    cursor: pointer;
+    width: 50%;
+    display: block;
+    margin: auto;
+    height: 50px;
+    background-color: #242529;
+    color: white;
+    border: 1px solid #242529;
+    border-radius: 20px;
+    transition: 300ms;
+    &:hover {
+        border: 1px solid red;
+    }
+}
+
 .cart-line {
+    opacity: 70%;
     width: 50%;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cart-summary {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin: auto;
+    font-family: Satoshi-Variable;
+    padding: 0 8px;
+}
+
+.continue-link {
+    text-decoration: none;
+    color: white;
+}
+
+.empty-cart-title {
+    font-family: Satoshi-Variable;
+    width: 50%;
+    margin: auto;
+    opacity: 70%;
+    font-weight: 400;
 }
