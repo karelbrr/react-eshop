@@ -3,11 +3,12 @@ import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 
 
-const ProductDetails = ({fetch_url}) => {
+const ProductDetails = ({fetch_url, cart, setCart}) => {
     const [data, setData] = useState([])
     const [isPending, setIsPending] = useState(true)
     const [error, setError] = useState()
     const { id } = useParams()
+
 
     useEffect(() => {
         fetch(fetch_url+id)
@@ -23,6 +24,11 @@ const ProductDetails = ({fetch_url}) => {
             
     }, [])
 
+    const addToCartButtonHandler = () => {
+        cart.push(data[0])
+        setCart(cart)
+    }
+
     const name = data.length > 0 ? data[0].name : "";
     const desc = data.length > 0 ? data[0].desc : "";
     const price = data.length > 0 ? data[0].price : "";
@@ -37,7 +43,7 @@ const ProductDetails = ({fetch_url}) => {
             <h1 className="product-details-heading">{name}</h1>
             <p className="product-details-desc">{desc}</p>
             <p className="product-details-price">{price} ,-</p>
-            <button className="product-details-button">Přidat do košíku</button>
+            <button className="product-details-button" onClick={addToCartButtonHandler} >Přidat do košíku</button>
         </div> 
     </div> );
 }

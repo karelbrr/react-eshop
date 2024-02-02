@@ -19,7 +19,7 @@ const Cart = ({cart}) => {
             </div>
         </div></Link>)}
         
-
+        <hr className="cart-line" />
         
     </div> );
 }
