@@ -17,7 +17,9 @@ const ProductList = ({cname, fetch_url}) => {
             })
             .then(json => setData(json))
             .catch((err) => setError(err.message))
-            .finally(() => setIsPending(false))     
+            .finally(() => setIsPending(false))
+            
+           
     }, [])
 
     return ( <div className="product-list">

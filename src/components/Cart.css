@@ -1,0 +1,65 @@
+.cart-heading {
+    font-family: Satoshi-Variable;
+    color: white;
+    margin: 12px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.cart {
+    margin-top: 20px;
+    color: white;
+}
+
+.cart-item {
+    font-family: Satoshi-Variable;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    background-color: #242529;
+    border: 1px solid #242529;
+    margin: auto;
+    height: 50px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+    
+}
+
+.band-right {
+    display: flex;
+}
+
+.cart-item-link {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.cart-item-name {
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.cart-item-price {
+    margin-right: 20px;
+    margin-top: 14px;
+}
+
+.cart-item-delete {
+    height: 50px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: transparent;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: 300ms;
+    &:hover {
+        background-color: red;
+    }
+    
+}
