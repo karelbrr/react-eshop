@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'DrukWide';
+    src: url('../fonts/Druk-Wide-Bold.ttf') 
+
+}
+
+@font-face {
+    font-family: 'Poppins-Variable';
+    src: url('../fonts/Poppins-Variable.woff2') format('woff2'),
+         url('../fonts/Poppins-Variable.woff') format('woff'),
+         url('../fonts/Poppins-Variable.ttf') format('truetype');
+         font-weight: 100 900;
+         font-display: swap;
+         font-style: normal;
+  }
+
+.news-container {
+    background-image: url("/img/back4.jpg");
+    height: 100px;
+}
+
+.news-heading {
+    font-family: Drukwide;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 20px;
+}

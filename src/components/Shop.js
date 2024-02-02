@@ -28,6 +28,11 @@ const Shop = () => {
             {data.map(item => <CategoryItem key={item.id} category={item}/>)}
 
         </div>
+
+        {error && <div className="error-container">
+            <h3 className="error-name">Něco se nepovedlo</h3>
+            <p className="error-text">{error}</p>
+            </div>}
     </div>);
 }
 

@@ -20,7 +20,7 @@
 
 
 .navbar {
-    background-color: #242529;
+    background-color: rgb(6,6,6);
     display: flex;
     width: 100%;
     margin: auto;

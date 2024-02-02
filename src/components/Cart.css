@@ -17,9 +17,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    background-color: #242529;
-    border: 1px solid #242529;
+    width: 50%;
+    background-color: rgb(6,6,6);
+    border: 1px solid rgb(6,6,6);
     margin: auto;
     height: 50px;
     border-radius: 20px;
@@ -35,8 +35,7 @@
     text-decoration: none;
     color: white;
     display: block;
-    width: 50%;
-    margin: auto;
+    width: 700px;
 }
 
 .cart-item-name {
@@ -74,9 +73,9 @@
     display: block;
     margin: auto;
     height: 50px;
-    background-color: #242529;
+    background-color: rgb(6,6,6);
     color: white;
-    border: 1px solid #242529;
+    border: 1px solid rgb(6,6,6);
     border-radius: 20px;
     transition: 300ms;
     &:hover {
@@ -112,4 +111,5 @@
     margin: auto;
     opacity: 70%;
     font-weight: 400;
+    padding-left: 5px;
 }

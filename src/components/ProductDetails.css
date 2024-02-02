@@ -43,7 +43,7 @@
     font-family: Satoshi-Variable;
     padding: 12px;
     border-radius: 30px;
-    background-color: #242529;
+    background-color: rgb(6,6,6);
     color: white;
     border: 1px solid white;
     transition: 500ms;

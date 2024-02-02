@@ -1,5 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background-color: #27282C;
+    background-color: black;
 }
 
 * {

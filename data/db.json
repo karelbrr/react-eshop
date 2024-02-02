@@ -181,6 +181,7 @@
       {
         "id": "c5",
         "image_width": "40%",
+        "link": "/shop/details-imac/",
         "image": "http://localhost:8000/imac-img.png",
         "name": "Apple iMac M1",
         "desc": "All In One PC 24 4480 × 2520, Apple M1, Apple M1 8jádrová GPU, RAM 16GB, SSD 1TB GB, Wi-Fi, Thunderbolt 3, magic keyboard s touch id, macOS",

@@ -6,7 +6,9 @@
         margin: auto;   
 }
 
-.category-name {
+#category-name {
+    margin-top: 100px;
+    padding-top: 50px;
     font-family: Satoshi-Variable;
     font-weight: 500;
     color: white;
@@ -16,4 +18,38 @@
 
 .product-list {
     margin-top: 24px;
+}
+
+.product-bg {
+    
+    background-size: cover;
+    height: 700px;
+}
+
+.quote {
+    color: white;
+    text-align: center;
+    font-family: Satoshi-Variable;
+    padding-top: 570px;
+    font-weight: 400;
+}
+
+.product-bg-desc {
+    color: white;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    font-family: Satoshi-Variable;
+}
+
+.scroll {
+    text-align: center;
+    margin-top: 12px;
+    font-family: Satoshi-Variable;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    &:hover {
+        text-decoration: underline;
+    }
 }
