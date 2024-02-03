@@ -9,14 +9,14 @@ const ProductDetails = ({ fetch_url, cart, setCart }) => {
   const { id } = useParams();
 
   useEffect(() => {
-    fetch(fetch_url + id)
+    fetch(`${fetch_url}${id}`)
       .then((response) => {
         if (response.ok) {
           return response.json();
         }
         throw new Error(`Unable to get data: ${response.statusText}`);
       })
-      .then((json) => setData(json))
+      .then((json) => setData(json));
   }, [fetch_url, id]);
 
   const addToCartButtonHandler = () => {
@@ -33,11 +33,8 @@ const ProductDetails = ({ fetch_url, cart, setCart }) => {
       theme: "dark",
     });
   };
-
-  const name = data.length > 0 ? data[0].name : "";
-  const desc = data.length > 0 ? data[0].desc : "";
-  const price = data.length > 0 ? data[0].price : "";
-  const img_src = data.length > 0 ? data[0].image : "";
+  const item = data.length > 0 ? data[0] : {};
+  const { name = "", desc = "", price = "", image: img_src = "" } = item;
 
   return (
     <div className="product-details">

@@ -49,7 +49,7 @@ const Cart = ({ cart, setCart, inCart, setInCart }) => {
       <hr className="cart-line" />
       <div className="cart-summary">
         <p className="cart-summary-price">
-          Celkem: {sumPrice},- {cart.length}
+          Celkem: {sumPrice},- 
         </p>
         <p className="continue-link">Pokračovat</p>
       </div>
