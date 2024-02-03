@@ -12,7 +12,10 @@ const ProductDetails = ({fetch_url, cart, setCart, setInCart}) => {
 
 
     useEffect(() => {
-        fetch(fetch_url+id)
+        /**
+         * Je lepší pro stringy používat Template literals:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+         */
+        fetch(`${fetch_url}${id}`)
             .then(response => {
                 if (response.ok) {
                     return response.json()
@@ -41,11 +44,15 @@ const ProductDetails = ({fetch_url, cart, setCart, setInCart}) => {
             theme: "dark",
             });
     }
+    /**
+     * Opakovala se ti tam stejná podmínka pořád dokola, je dobré tyto věci vytahovat do jedné proměnné, protože pokud se ta logika změní tak to nebudeš muset dělat na více místech, ale jen na jednom.
+     */
+    const hasData = data.length > 0;
 
-    const name = data.length > 0 ? data[0].name : "";
-    const desc = data.length > 0 ? data[0].desc : "";
-    const price = data.length > 0 ? data[0].price : "";
-    const img_src = data.length > 0 ? data[0].image : "";
+    const name = hasData ? data[0].name : "";
+    const desc = hasData ? data[0].desc : "";
+    const price = hasData ? data[0].price : "";
+    const img_src = hasData ? data[0].image : "";
     
     
     
