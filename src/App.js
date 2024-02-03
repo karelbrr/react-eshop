@@ -22,7 +22,7 @@ const App = () => {
   return (
     <Router>
       <div className="app">
-        <Navbar />
+        <Navbar cart={cart}/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />

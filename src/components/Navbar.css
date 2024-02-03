@@ -59,3 +59,17 @@
     opacity: 70%;
   }
 }
+
+.badge {
+  font-family: Satoshi-Variable;
+  color: black;
+  background-color: white;
+  border-radius: 100%;
+  padding-left: 5px;
+  font-size: 13px;
+  height: 17px;
+  width: 17px;
+  position: relative;
+  right: 5px;
+  top: 10px;
+}
