@@ -2,27 +2,12 @@ import "./ProductList.css"
 import Product from "./Product";
 import { useState, useEffect } from "react";
 import { FaArrowDown } from "react-icons/fa";
-
+import useFetch from "./useFetch";
 
 const ProductList = ({cname, fetch_url, bg_img, height, ptop}) => {
-    const [data, setData] = useState([])
-    const [isPending, setIsPending] = useState(true)
-    const [error, setError] = useState()
 
-    useEffect(() => {
-        fetch(fetch_url)
-            .then(response => {
-                if (response.ok) {
-                    return response.json()
-                }
-                throw new Error(`Unable to get data: ${response.statusText}`)
-            })
-            .then(json => setData(json))
-            .catch((err) => setError(err.message))
-            .finally(() => setIsPending(false))
-            
-           
-    }, [])
+    
+    const {data, isPending, error} = useFetch(fetch_url)
 
     return ( <div className="product-list">
         <div className="product-bg" style={{backgroundImage: `url(${bg_img})`, height:height}}>

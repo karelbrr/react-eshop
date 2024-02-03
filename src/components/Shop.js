@@ -1,26 +1,13 @@
 import "./Shop.css"
 import CategoryItem from "./CategoryItem";
 import { useState, useEffect } from "react";
+import useFetch from "./useFetch";
 
 
 const Shop = () => {
 
-    const [data, setData] = useState([])
-    const [isPending, setIsPending] = useState(true)
-    const [error, setError] = useState()
 
-    useEffect(() => {
-            fetch('http://localhost:8000/categories')
-                .then(response => {
-                    if (response.ok) {
-                        return response.json()
-                    }
-                    throw new Error(`Unable to get data: ${response.statusText}`)
-                })
-                .then(json => setData(json))
-                .catch((err) => setError(err.message))
-                .finally(() => setIsPending(false))     
-    }, [])
+    const {data, isPending, error} =useFetch("http://localhost:8000/categories")
 
     return (<div className="shop">
         <h2 className="categories-heading">Kategorie</h2>
