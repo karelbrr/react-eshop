@@ -13,9 +13,7 @@ import useFetch from "./components/useFetch";
 
 /**
  * Celkově je to hezké, dobrá práce!!! 
- * 
  * Doporučil bych ti ještě zvážít eslint a prettier, v kódu máš proměnné, které nejsou použity a někde máš špatné odsazení. Není to žádná velká chyba, ale je dobré držet kod "standardizovaný" ať se v něm každý dokáže hned zorintovat a v tom ti eslint a prettier může pomoct.
- * 
  * Taky "databázi" a data máš v JSONu, na testování je to super, ale pokud bys tu aplikaci chtěl mít funkční v produkční kvalitě, tak by bylo dobré abys využil nějakou reálnou databázi. Můžeš se podívat na Supabase (https://supabase.com/), můžeš si tam relativně jednoduše udělat to co máš v data/db.json, ale budeš to mít reálně uložené v databázi a poskytne ti to další funkce jako přihlašování uživatelů, apod. To však ber spíš jako nápad do budoucna :)  
  */
 const App = () => {
