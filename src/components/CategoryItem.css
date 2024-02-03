@@ -1,38 +1,38 @@
 .category-item {
-    background-color: rgb(5,5,5);
-    width: 100%;
-    height:200px;
-    border-radius: 20px;
-    border: 1px solid rgb(5,5,5);
-    transition: 300ms;
-    display: flex;
-    &:hover {
-        border-color: darkgrey;
-    }
+  background-color: rgb(5, 5, 5);
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+  border: 1px solid rgb(5, 5, 5);
+  transition: 300ms;
+  display: flex;
+  &:hover {
+    border-color: darkgrey;
+  }
 }
 
 .category-item-link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .category-heading {
-    padding: 20px;
-    padding-bottom: 0;
-    color: white;
-    font-family: Satoshi-Variable;
+  padding: 20px;
+  padding-bottom: 0;
+  color: white;
+  font-family: Satoshi-Variable;
 }
 
 .category-desc {
-    color: white;
-    padding: 20px;
-    padding-top: 10px;
-    font-family: Satoshi-Variable;
-    text-align: justify;
+  color: white;
+  padding: 20px;
+  padding-top: 10px;
+  font-family: Satoshi-Variable;
+  text-align: justify;
 }
 
 .category-img {
-    width: 30%;
-    height: 40%;
-    margin-top: 48px;
-    margin-left: 24px;
+  width: 30%;
+  height: 40%;
+  margin-top: 48px;
+  margin-left: 24px;
 }

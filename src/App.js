@@ -1,37 +1,70 @@
-import { CiShoppingCart } from "react-icons/ci";
 import Navbar from "./components/Navbar";
-import "./App.css"
+import "./App.css";
 import Home from "./components/Home";
-import { BrowserRouter as Router,  Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Shop from "./components/Shop";
 import Add from "./components/Add";
 import ProductList from "./components/ProductList";
 import ProductDetails from "./components/ProductDetails";
 import Cart from "./components/Cart";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import useFetch from "./components/useFetch";
 
 const App = () => {
-  const[cart, setCart] = useState([])
-  const[inCart, setInCart] = useState(false)
-  const {data: category_routes_data, isPending: category_routes_isPending, error: category_routes_error} =useFetch("http://localhost:8000/category_routes")
-  const {data: product_routes_data, isPending: product_routes_isPending, error: product_routes_error} =useFetch("http://localhost:8000/product_routes")
+  const [cart, setCart] = useState([]);
+  const {
+    data: category_routes_data,
+  } = useFetch("http://localhost:8000/category_routes");
+  const {
+    data: product_routes_data,
+  } = useFetch("http://localhost:8000/product_routes");
 
-  return ( 
+  return (
     <Router>
       <div className="app">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/shop" element={<Shop/>}/>
-          <Route path="/add" element={<Add/>}/>
-          <Route path="/cart" element={<Cart  cart={cart} setCart={setCart} inCart={inCart} setInCart={setInCart}/>}/>
-          {category_routes_data.map(route => <Route key={route.id} path={route.path} element={<ProductList cname={route.cname} fetch_url={route.fetch_url} bg_img={route.bg_img} height={route.height} ptop={route.ptop} quote={route.quote} quote_desc={route.quote_desc}/>}/>)}
-          {product_routes_data.map(route => <Route key={route.id} path={route.path} element={<ProductDetails cart={cart} setCart={setCart} setInCart={setInCart} fetch_url={route.fetch_url}/>}/>)}
+          <Route path="/" element={<Home />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/add" element={<Add />} />
+          <Route
+            path="/cart"
+            element={<Cart cart={cart} setCart={setCart} />}
+          />
+          {category_routes_data.map((route) => (
+            <Route
+              key={route.id}
+              path={route.path}
+              element={
+                <ProductList
+                  cname={route.cname}
+                  fetch_url={route.fetch_url}
+                  bg_img={route.bg_img}
+                  height={route.height}
+                  ptop={route.ptop}
+                  quote={route.quote}
+                  quote_desc={route.quote_desc}
+                />
+              }
+            />
+          ))}
+          {product_routes_data.map((route) => (
+            <Route
+              key={route.id}
+              path={route.path}
+              element={
+                <ProductDetails
+                  cart={cart}
+                  setCart={setCart}
+                  fetch_url={route.fetch_url}
+                />
+              }
+            />
+          ))}
         </Routes>
       </div>
-  </Router>
-  )
-}
- 
+    </Router>
+  );
+};
+
 export default App;

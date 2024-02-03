@@ -1,38 +1,37 @@
 @font-face {
-    font-family: 'Satoshi-Variable';
-    src: url('../fonts/Satoshi-Variable.woff2') format('woff2'),
-         url('../fonts/Satoshi-Variable.woff') format('woff'),
-         url('../fonts/Satoshi-Variable.ttf') format('truetype');
-         font-weight: 300 900;
-         font-display: swap;
-         font-style: normal;
+  font-family: "Satoshi-Variable";
+  src: url("../fonts/Satoshi-Variable.woff2") format("woff2"),
+    url("../fonts/Satoshi-Variable.woff") format("woff"),
+    url("../fonts/Satoshi-Variable.ttf") format("truetype");
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
 }
 
-
 #categories-heading {
-    font-family: Satoshi-Variable;
-    color: white;
-    text-align: center;
-    font-weight: 400;
-    font-size: 40px;
-    margin: 40px;
+  font-family: Satoshi-Variable;
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  margin: 40px;
 }
 
 .categories-container {
-    width: 60%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    margin: auto;
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: auto;
 }
 
 .error-container {
-    width: 50%;
-    margin: auto;
-    background-color: rgb(6,6,6);
-    padding: 10px;
-    border-radius: 20px;
-    font-family: Satoshi-Variable;
-    color: white;
-    padding-left: 15px;
+  width: 50%;
+  margin: auto;
+  background-color: rgb(6, 6, 6);
+  padding: 10px;
+  border-radius: 20px;
+  font-family: Satoshi-Variable;
+  color: white;
+  padding-left: 15px;
 }
