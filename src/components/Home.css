@@ -14,16 +14,16 @@
          font-style: normal;
   }
 
-.news-container {
+.bg-container {
     background-image: url("/img/back4.jpg");
-    height: 100px;
+    height: 200px;
 }
 
 .news-heading {
-    font-family: Drukwide;
+    font-family: Satoshi-Variable;
     color: white;
     text-align: center;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 40px;
-    padding-top: 20px;
+    margin-top: 40px;
 }

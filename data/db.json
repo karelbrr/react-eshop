@@ -1,4 +1,26 @@
 {
+    "product_routes": [
+    {
+      "id": 1,
+      "path": "/shop/details-iphone/:id",
+      "fetch_url": "http://localhost:8000/products_iphone/?id="
+    },
+    {
+      "id": 2,
+      "path": "/shop/details-macbook/:id",
+      "fetch_url": "http://localhost:8000/products_macbook/?id="
+    },
+    {
+      "id": 3,
+      "path": "/shop/details-imac/:id",
+      "fetch_url": "http://localhost:8000/products_imac/?id="
+    },
+    {
+      "id": 4,
+      "path": "/shop/details-watch/:id",
+      "fetch_url": "http://localhost:8000/products_watch/?id="
+    }
+    ],
     "category_routes": [
     {
       "id": 1,
@@ -7,7 +29,9 @@
       "fetch_url": "http://localhost:8000/products_iphone",
       "bg_img": "http://localhost:8000/iphone-bg.png",
       "height":"600px",
-      "ptop": "570px"
+      "ptop": "570px",
+      "quote": "iPhone v ruce, inovace na dosah",
+      "quote_desc": "Spojení elegance, výkonu a špičkového designu v jednom. S kvalitním displejem a výkonným hardwarem zaručuje optimální zážitek pro každodenní užívání."
     },
     {
       "id": 2,
@@ -16,7 +40,9 @@
       "fetch_url": "http://localhost:8000/products_macbook",
       "bg_img": "http://localhost:8000/macbook-bg.png",
       "height":"700px",
-      "ptop": "570px"
+      "ptop": "570px",
+      "quote": "Cokoliv si představíš, To MacBook dokáže",
+      "quote_desc": "Výkonný notebook v elegantním provedení. Lehký a tenký design spojený s vysokým výkonem a Retina displejem. Ideální společník pro ty, kteří oceňují eleganci a efektivitu."
     },
     {
       "id": 3,
@@ -25,16 +51,20 @@
       "fetch_url": "http://localhost:8000/products_imac",
       "bg_img": "http://localhost:8000/imac-bg.png",
       "height":"600px",
-      "ptop": "600px"
+      "ptop": "600px",
+      "quote": "iMac: Více než jen počítač, je to designový zážitek",
+      "quote_desc": "Symbióza elegance, výkonu a špičkového designu. S prvotřídním displejem a výkonným hardwarem poskytuje optimální zážitek pro každodenní využívání iMacu."
     },
     {
       "id": 4,
       "path": "/shop/watch",
-      "cname": "Dostupné MacBooky",
+      "cname": "Dostupné Watch",
       "fetch_url": "http://localhost:8000/products_watch",
       "bg_img": "http://localhost:8000/watch-bg.png",
       "height":"700px",
-      "ptop": "570px"
+      "ptop": "570px",
+      "quote": "Chytrý životní styl na dosah. Apple Watch: nejenom čas, ale i styl.",
+      "quote_desc": "Elegance, výkon a inovace. Apple Watch: dokonalý společník pro stylový a chytrý životní styl."
     }
     ],
     "categories": [

@@ -3,13 +3,14 @@
     color: white;
     margin: 12px;
     text-align: center;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 25px;
 }
 
 .cart {
     margin-top: 20px;
     color: white;
+    height: 500px;
 }
 
 .cart-item {
@@ -110,6 +111,6 @@
     width: 50%;
     margin: auto;
     opacity: 70%;
-    font-weight: 400;
+    font-weight: 300;
     padding-left: 5px;
 }

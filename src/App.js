@@ -14,15 +14,10 @@ import useFetch from "./components/useFetch";
 const App = () => {
   const[cart, setCart] = useState([])
   const[inCart, setInCart] = useState(false)
-
-
-  const {data, isPending, error} =useFetch("http://localhost:8000/category_routes")
-
-   
-  
+  const {data: category_routes_data, isPending: category_routes_isPending, error: category_routes_error} =useFetch("http://localhost:8000/category_routes")
+  const {data: product_routes_data, isPending: product_routes_isPending, error: product_routes_error} =useFetch("http://localhost:8000/product_routes")
 
   return ( 
-    
     <Router>
       <div className="app">
         <Navbar />
@@ -31,17 +26,12 @@ const App = () => {
           <Route path="/shop" element={<Shop/>}/>
           <Route path="/add" element={<Add/>}/>
           <Route path="/cart" element={<Cart  cart={cart} setCart={setCart} inCart={inCart} setInCart={setInCart}/>}/>
-
-          {data.map(route => <Route key={route.id} path={route.path} element={<ProductList cname={route.cname} fetch_url={route.fetch_url} bg_img={route.bg_img} height={route.height} ptop={route.ptop}/>}/>)}
-          
-          <Route path="/shop/details-iphone/:id" element={<ProductDetails cart={cart} setCart={setCart} setInCart={setInCart} fetch_url={"http://localhost:8000/products_iphone/?id="}/>}/>
-          <Route path="/shop/details-macbook/:id" element={<ProductDetails cart={cart} setCart={setCart} setInCart={setInCart} fetch_url={"http://localhost:8000/products_macbook/?id="}/>}/>
-          <Route path="/shop/details-imac/:id" element={<ProductDetails cart={cart} setCart={setCart} setInCart={setInCart} fetch_url={"http://localhost:8000/products_imac/?id="}/>}/>
-          <Route path="/shop/details-watch/:id" element={<ProductDetails cart={cart} setCart={setCart} setInCart={setInCart} fetch_url={"http://localhost:8000/products_watch/?id="}/>}/>
+          {category_routes_data.map(route => <Route key={route.id} path={route.path} element={<ProductList cname={route.cname} fetch_url={route.fetch_url} bg_img={route.bg_img} height={route.height} ptop={route.ptop} quote={route.quote} quote_desc={route.quote_desc}/>}/>)}
+          {product_routes_data.map(route => <Route key={route.id} path={route.path} element={<ProductDetails cart={cart} setCart={setCart} setInCart={setInCart} fetch_url={route.fetch_url}/>}/>)}
         </Routes>
       </div>
   </Router>
-  );
+  )
 }
  
 export default App;
