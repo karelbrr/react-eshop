@@ -24,10 +24,12 @@ const App = () => {
           <Route path="/shop" element={<Shop/>}/>
           <Route path="/add" element={<Add/>}/>
           <Route path="/cart" element={<Cart  cart={cart} setCart={setCart} inCart={inCart} setInCart={setInCart}/>}/>
-          <Route path="/shop/iphone" element={<ProductList cname={"Dostupné iPhony"} fetch_url={"http://localhost:8000/products_iphone"} bg_img={"http://localhost:8000/iphone-bg.png"}/>}/>
-          <Route path="/shop/macbook" element={<ProductList cname={"Dostupné Macbooky"} fetch_url={"http://localhost:8000/products_macbook"} bg_img={"http://localhost:8000/macbook-bg.png"}/>}/>
-          <Route path="/shop/imac" element={<ProductList cname={"Apple IMac"} fetch_url={"http://localhost:8000/products_imac"}/>}/>
-          <Route path="/shop/watch" element={<ProductList cname={"Apple Watch"} fetch_url={"http://localhost:8000/products_watch"} bg_img={"http://localhost:8000/watch-bg.png"}/>}/>
+
+          <Route path="/shop/iphone" element={<ProductList cname={"Dostupné iPhony"} fetch_url={"http://localhost:8000/products_iphone"} bg_img={"http://localhost:8000/iphone-bg.png"} height={"600px"} ptop={"570px"}/>}/>
+          <Route path="/shop/macbook" element={<ProductList cname={"Dostupné Macbooky"} fetch_url={"http://localhost:8000/products_macbook"} bg_img={"http://localhost:8000/macbook-bg.png"} height={"700px"} ptop={"570px"}/>}/>
+          <Route path="/shop/imac" element={<ProductList cname={"Dostupné IMacy"} fetch_url={"http://localhost:8000/products_imac"} bg_img={"http://localhost:8000/imac-bg.png"} height={"600px"} ptop={"600px"}/>}/>
+          <Route path="/shop/watch" element={<ProductList cname={"Dostupné Watch"} fetch_url={"http://localhost:8000/products_watch"} bg_img={"http://localhost:8000/watch-bg.png"} height={"700px"} ptop={"570px"}/>}/>
+
           <Route path="/shop/details-iphone/:id" element={<ProductDetails cart={cart} setCart={setCart} setInCart={setInCart} fetch_url={"http://localhost:8000/products_iphone/?id="}/>}/>
           <Route path="/shop/details-macbook/:id" element={<ProductDetails cart={cart} setCart={setCart} setInCart={setInCart} fetch_url={"http://localhost:8000/products_macbook/?id="}/>}/>
           <Route path="/shop/details-imac/:id" element={<ProductDetails cart={cart} setCart={setCart} setInCart={setInCart} fetch_url={"http://localhost:8000/products_imac/?id="}/>}/>
