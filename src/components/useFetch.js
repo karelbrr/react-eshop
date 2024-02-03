@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react"
 
-
+/**
+ * Podívej se na react query, která ti můžeš výrazně pomoc s načítáním dat a ujednodušit práci
+ */
 const useFetch = (fetch_url) => {
     const [data, setData] = useState([])
     const [isPending, setIsPending] = useState(true)
