@@ -24,7 +24,6 @@ const ProductDetails = ({ fetch_url, cart, setCart }) => {
     setCart(cart);
     const newCart = [...cart];
     setCart(newCart);
-    console.log(cart.length);
     toast.success(name + " Byl přidán do košíku", {
       position: "top-right",
       autoClose: 2000,

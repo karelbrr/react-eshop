@@ -3,8 +3,6 @@ import { IoCartOutline } from "react-icons/io5";
 import { CiSearch } from "react-icons/ci";
 import { Link } from "react-router-dom";
 
-
-
 const Navbar = ({ cart }) => {
 
 
@@ -24,9 +22,10 @@ const Navbar = ({ cart }) => {
         </div>
         <Link href="" to="/cart">
           <IoCartOutline className="navbar-icon" />
+          {cart.length > 0 && cart.length <= 1 && <p style={{paddingLeft: "8px"}} className="badge">{cart.length}</p>}
+          {cart.length > 1 &&  cart.length < 10 && <p style={{paddingLeft: "6px"}} className="badge">{cart.length}</p>}
+          {cart.length >= 10 && <p style={{paddingLeft: "4px"}} className="badge">{cart.length}</p>}
         </Link>
-        {cart.length >= 1 && cart.length < 10 && <span className="badge">{cart.length}</span>}
-        {cart.length >= 10 && <span style={{paddingLeft: "3px"}} className="badge">{cart.length}</span>}
       </div>
     </div>
   );

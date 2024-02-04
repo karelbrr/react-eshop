@@ -2,15 +2,16 @@ import { Link } from "react-router-dom";
 import "./Cart.css";
 import { GoTrash } from "react-icons/go";
 
-const Cart = ({ cart, setCart, inCart, setInCart }) => {
+const Cart = ({ cart, setCart }) => {
   const deleteAllHandler = () => {
     setCart([]);
   };
 
   const deleteHandler = (itemId) => {
+    setCart()
+    const indexToRemove = cart.findIndex((item) => item.id === itemId);
     const newCart = [...cart];
-    const productIndex = newCart.findIndex((item) => item.id === itemId);
-    newCart.splice(productIndex, 1);
+    newCart.splice(indexToRemove, 1);
     setCart(newCart);
   };
 
@@ -19,8 +20,8 @@ const Cart = ({ cart, setCart, inCart, setInCart }) => {
   return (
     <div className="cart">
       <h1 className="cart-heading">Košík</h1>
-      {cart.map((item) => (
-        <div className="cart-item" key={item.id}>
+      {cart.map((item, index) => (
+        <div className="cart-item" key={`${item.id}-${index}`}>
           <div className="band-left">
             <Link className="cart-item-link" to={item.link + item.id}>
               <h3 className="cart-item-name">{item.name}</h3>
@@ -48,9 +49,7 @@ const Cart = ({ cart, setCart, inCart, setInCart }) => {
 
       <hr className="cart-line" />
       <div className="cart-summary">
-        <p className="cart-summary-price">
-          Celkem: {sumPrice},- 
-        </p>
+        <p className="cart-summary-price">Celkem: {sumPrice},-</p>
         <p className="continue-link">Pokračovat</p>
       </div>
     </div>
