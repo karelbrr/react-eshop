@@ -46,7 +46,6 @@
   display: grid;
   width: 60%;
   margin: auto;
-  margin: 100px auto;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
   grid-template-areas:
@@ -54,7 +53,6 @@
     "news news sidebar";
 }
 
-.content-item-1,
 .content-item-2,
 .content-item-3 {
   border: 1px solid white;
@@ -65,9 +63,30 @@
   }
 }
 
-.content-item-1 {
+.slider {
+  width: 60%;
+  margin: auto;
+  margin-top: 64px;
+  
+}
+
+.slider-item-1 {
+  text-decoration: none;
   grid-area: content;
   height: 250px;
+  width: 100%;
+  color: white;
+  border: 1px solid white;
+  transition: 300ms;
+  &:hover {
+    border-bottom: 5px solid white;
+  }
+}
+
+.slider-text-heading {
+  font-family: Satoshi-Variable;
+  font-weight: 400;
+  padding: 10px;
 }
 
 .content-item-2 {
