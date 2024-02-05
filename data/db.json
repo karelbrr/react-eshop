@@ -70,6 +70,8 @@
   "categories": [
     {
       "id": 1,
+      "max_width": "80px",
+      "image_width": "20%",
       "linkto": "/shop/iphone",
       "image": "http://localhost:8000/iphone-img.png",
       "name": "Apple iPhone",
@@ -77,6 +79,8 @@
     },
     {
       "id": 2,
+      "max_width": "130px",
+      "image_width": "40%",
       "linkto": "/shop/macbook",
       "image": "http://localhost:8000/macbook-img.png",
       "name": "Apple MacBook",
@@ -84,6 +88,8 @@
     },
     {
       "id": 3,
+      "max_width": "110px",
+      "image_width": "30%",
       "linkto": "/shop/imac",
       "image": "http://localhost:8000/imac-img.png",
       "name": "Apple iMac",
@@ -91,6 +97,8 @@
     },
     {
       "id": 4,
+      "image_width": "20%",
+      "max_width": "90px",
       "linkto": "/shop/watch",
       "image": "http://localhost:8000/watch-img.png",
       "name": "Apple Watch",
@@ -249,6 +257,7 @@
     {
       "id": "c5",
       "image_width": "40%",
+      "link": "/shop/details-imac/",
       "image": "http://localhost:8000/imac-img.png",
       "name": "Apple iMac M1",
       "desc": "All In One PC 24 4480 × 2520, Apple M1, Apple M1 8jádrová GPU, RAM 16GB, SSD 1TB GB, Wi-Fi, Thunderbolt 3, magic keyboard s touch id, macOS",

@@ -41,3 +41,41 @@
 .news-item-text {
   text-align: justify;
 }
+
+.content-container {
+  display: grid;
+  width: 60%;
+  margin: auto;
+  margin: 100px auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  grid-template-areas:
+    "content content content"
+    "news news sidebar";
+}
+
+.content-item-1,
+.content-item-2,
+.content-item-3 {
+  border: 1px solid white;
+  transition: 300ms;
+  &:hover {
+    border: 1px solid white;
+    border-bottom: 3px solid white;
+  }
+}
+
+.content-item-1 {
+  grid-area: content;
+  height: 250px;
+}
+
+.content-item-2 {
+  grid-area: news;
+  height: 250px;
+}
+
+.content-item-3 {
+  grid-area: sidebar;
+  height: 250px;
+}

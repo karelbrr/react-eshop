@@ -9,10 +9,10 @@ const CategoryItem = ({ category }) => {
           className="category-img"
           src={category.image}
           alt={category.name}
+          style={{width: category.image_width}}
         />
         <div>
           <h3 className="category-heading">{category.name}</h3>
-          <p className="category-desc">{category.desc}</p>
         </div>
       </div>
     </Link>
