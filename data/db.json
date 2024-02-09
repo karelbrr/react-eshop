@@ -25,6 +25,7 @@
     {
       "id": 1,
       "path": "/shop/iphone",
+      "image": "http://localhost:8000/iphone-img.png",
       "cname": "Dostupné iPhony",
       "fetch_url": "http://localhost:8000/products_iphone",
       "bg_img": "http://localhost:8000/iphone-bg.png",
@@ -36,6 +37,7 @@
     {
       "id": 2,
       "path": "/shop/macbook",
+      "image": "http://localhost:8000/macbook-img.png",
       "cname": "Dostupné MacBooky",
       "fetch_url": "http://localhost:8000/products_macbook",
       "bg_img": "http://localhost:8000/macbook-bg.png",
@@ -47,6 +49,7 @@
     {
       "id": 3,
       "path": "/shop/imac",
+      "image": "http://localhost:8000/imac-img.png",
       "cname": "Dostupné iMacy",
       "fetch_url": "http://localhost:8000/products_imac",
       "bg_img": "http://localhost:8000/imac-bg.png",
@@ -58,6 +61,7 @@
     {
       "id": 4,
       "path": "/shop/watch",
+      "image": "http://localhost:8000/watch-img.png",
       "cname": "Dostupné Watch",
       "fetch_url": "http://localhost:8000/products_watch",
       "bg_img": "http://localhost:8000/watch-bg.png",
