@@ -26,51 +26,15 @@ const Home = () => {
     <div className="home">
       <div className="bg-container"></div>
       <Slider {...settings} className="slider-news">
-        <Link className="slider-item-news">
+        {articles.map((article) => (<Link key={article.id} className="slider-item-news">
           <div className="slider-item-news">
             <div className="slider-news-bg"></div>
-            <h3 className="slider-news-heading">Nadpis 1</h3>
+            <h3 className="slider-news-heading">{article.title}</h3>
             <p className="slider-news-article">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              a libero eu libero pretium egestas. Donec lacinia nisi eget tortor
-              elementum ultrices. NullaNullaNullaNullaNullaNulla viverra nisl
-              non ligula volutpat viverra. Cras eu rutrum diam, ut pulvinar
-              orci. Fusce ultrices erat pellentesque feugiat pulvinar. Nulla sit
-              amet odio arcu. Aenean id lacinia nibh. Praesent massa elit,
-              pulvinar a lacus id, finibus
+              {article.text}
             </p>
           </div>
-        </Link>
-        <Link className="slider-item-news">
-          <div className="slider-item-news">
-            <div className="slider-news-bg"></div>
-            <h3 className="slider-news-heading">Nadpis 2</h3>
-            <p className="slider-news-article">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              a libero eu libero pretium egestas. Donec lacinia nisi eget tortor
-              elementum ultrices. Nulla viverra nisl non ligula volutpat
-              viverra. Cras eu rutrum diam, ut pulvinar orci. Fusce ultrices
-              erat pellentesque feugiat pulvinarpulvinarpulvinarpulvinar. Nulla
-              sit amet odio arcu. Aenean id lacinia nibh. Praesent massa elit,
-              pulvinar a lacus id, finibu
-            </p>
-          </div>
-        </Link>
-        <Link className="slider-item-news">
-          <div className="slider-item-news">
-            <div className="slider-news-bg"></div>
-            <h3 className="slider-news-heading">Nadpis 3</h3>
-            <p className="slider-news-article">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              a libero eu libero pretium egestas. Donec lacinia nisi eget tortor
-              elementum ultrices. Nulla viverra nisl non ligula volutpat
-              viverra. Cras eu rutrum diam, ut pulvinar orci. Fusce ultrices
-              erat pellentesque feugiatfeugiatfeugiat pulvinar. Nulla sit amet
-              odio arcu. Aenean id lacinia nibh. Praesent massa elit, pulvinar a
-              lacus id, finibus mattis lectus.
-            </p>
-          </div>
-        </Link>
+        </Link>))}      
       </Slider>
       <div className="content-container">
         <div className="content-item-2">
@@ -93,13 +57,6 @@ const Home = () => {
           </div>
         </Link>
       </div>
-      <h2 className="news-heading">Novinky</h2>
-      {articles.map((article) => (
-        <div key={article.id} className="news-item">
-          <h3 className="news-item-title">{article.title}</h3>
-          <p className="news-item-text">{article.text}</p>
-        </div>
-      ))}
     </div>
   );
 };
