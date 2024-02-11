@@ -1,16 +1,12 @@
 import "./Shop.css";
 import CategoryItem from "./CategoryItem";
 import useFetch from "./useFetch";
-import { Link } from "react-router-dom";
 
 const Shop = () => {
-  const { data, error } = useFetch(
-    "http://localhost:8000/categories"
-  );
+  const { data, error } = useFetch("http://localhost:8000/categories");
 
   return (
     <div className="shop">
-      
       <div className="bg-container"></div>
 
       <h2 id="categories-heading">Kategorie</h2>

@@ -7,7 +7,7 @@ import Add from "./components/Add";
 import ProductList from "./components/ProductList";
 import ProductDetails from "./components/ProductDetails";
 import Cart from "./components/Cart";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import useFetch from "./components/useFetch";
 import SearchList from "./components/SearchList";
 
@@ -21,11 +21,10 @@ const App = () => {
     "http://localhost:8000/product_routes"
   );
 
-
   return (
     <Router>
       <div className="app">
-        <Navbar cart={cart} setSearch={setSearch} />
+        <Navbar cart={cart} setSearch={setSearch} search={search} />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />

@@ -110,9 +110,8 @@
 
 .slider-news-bg {
   height: 100px;
-
-background: #010101;
-background: linear-gradient(0deg, #010101, #B280B6);
+  background: #010101;
+  background: linear-gradient(0deg, #010101, #b280b6);
   opacity: 70%;
 }
 
@@ -135,7 +134,7 @@ background: linear-gradient(0deg, #010101, #B280B6);
 }
 
 .content-div {
-  height: 250px
+  height: 250px;
 }
 
 .content-link {
@@ -155,6 +154,6 @@ background: linear-gradient(0deg, #010101, #B280B6);
 .bg-div {
   height: 160px;
 
-background: #014E92;
-background: linear-gradient(0deg, #014E92, #010101);
+  background: #014e92;
+  background: linear-gradient(0deg, #014e92, #010101);
 }

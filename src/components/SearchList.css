@@ -1,3 +1,11 @@
 .search-list {
-    color: white;
+  color: white;
+  font-family: Satoshi-Variable;
+}
+
+.search-text {
+  width: 60%;
+  margin: auto;
+  margin-top: 24px;
+  font-size: 22px;
 }

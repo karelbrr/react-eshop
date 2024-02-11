@@ -8,7 +8,7 @@ const Cart = ({ cart, setCart }) => {
   };
 
   const deleteHandler = (itemId) => {
-    setCart()
+    setCart();
     const indexToRemove = cart.findIndex((item) => item.id === itemId);
     const newCart = [...cart];
     newCart.splice(indexToRemove, 1);

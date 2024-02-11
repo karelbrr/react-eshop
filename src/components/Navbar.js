@@ -3,11 +3,8 @@ import { IoCartOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import { CiSearch } from "react-icons/ci";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
 
-
-const Navbar = ({ cart, setSearch }) => {
-  const navigate= useNavigate();
+const Navbar = ({ cart, setSearch, search }) => {
   const [searchValue, setSearchValue] = useState("");
 
   const handleInputChange = (event) => {
@@ -16,14 +13,6 @@ const Navbar = ({ cart, setSearch }) => {
 
   const handleSearchClick = () => {
     setSearch(searchValue);
-  };
-
-  const handleKeyPress = (event) => {
-    // Pokud je stisknuta klávesa Enter, spusťte vyhledávání
-    if (event.key === "Enter") {
-      handleSearchClick();
-      navigate("/search")
-    }
   };
 
   return (
@@ -45,10 +34,9 @@ const Navbar = ({ cart, setSearch }) => {
           className="search-bar"
           placeholder="Vyhledat..."
           onChange={handleInputChange}
-          onKeyPress={handleKeyPress}
         />
         <Link className="search-icon" to="/search">
-          <CiSearch onClick={handleInputChange} />
+          {searchValue && <CiSearch onClick={handleSearchClick} />}
         </Link>
 
         <Link className="cart-link" href="" to="/cart">
