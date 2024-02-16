@@ -10,6 +10,12 @@
   font-size: 22px;
 }
 
+.search-error-text {
+  color: white;
+  font-weight: 400;
+  font-size: 25px;
+}
+
 .under-search-text-line {
   width: 60%;
   margin: 24px auto;

@@ -4,8 +4,6 @@ import useFetch from "./useFetch";
 import { useEffect, useState } from "react";
 
 const SearchList = ({ search }) => {
-  
-
   const { data: iphoneData } = useFetch(
     "http://localhost:8000/products_iphone"
   );
@@ -25,21 +23,17 @@ const SearchList = ({ search }) => {
   ];
   const [filteredProducts, setFilteredProducts] = useState([]);
 
-
   useEffect(() => {
     if (search !== undefined && search !== null) {
-      const filtered = allProducts.filter(
-        (item) =>
-          item.name
-            .toLowerCase()
-            .replace(/\s/g, '')
-            .replace(".", "").startsWith(search.toLowerCase()
-            .replace(/\s/g, '')
-            .replace(".", ""))
+      const filtered = allProducts.filter((item) =>
+        item.name
+          .toLowerCase()
+          .replace(/\s/g, "")
+          .replace(".", "")
+          .includes(search.toLowerCase().replace(/\s/g, "").replace(".", ""))
       );
-      
+
       setFilteredProducts((prevFilteredProducts) => {
-        // Porovnejte předchozí a nový stav, abyste předešli nekonečné smyčce
         if (JSON.stringify(prevFilteredProducts) !== JSON.stringify(filtered)) {
           return filtered;
         }
@@ -47,8 +41,6 @@ const SearchList = ({ search }) => {
       });
     }
   }, [search, allProducts]);
-  
-
 
   return (
     <div className="search-list">
@@ -58,6 +50,12 @@ const SearchList = ({ search }) => {
         <hr className="under-search-text-line" />
       </div>
       <div className="search-list-container">
+        {filteredProducts.length === 0 && (
+          <div className="search-error">
+            <h3 className="search-error-text">Nic se nenašlo...</h3>
+          </div>
+        )}
+
         {filteredProducts.map((item) => (
           <Product key={item.id} product={item} />
         ))}
