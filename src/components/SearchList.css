@@ -9,3 +9,18 @@
   margin-top: 24px;
   font-size: 22px;
 }
+
+.under-search-text-line {
+  width: 60%;
+  margin: 24px auto;
+  opacity: 70%;
+}
+
+.search-list-container {
+  color: white;
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin: auto;
+}
